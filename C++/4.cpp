@@ -13,22 +13,24 @@ int main(){
     cout << "Digite uma letra: ";
     cin >> letra;
     
-    switch(letra){
+  switch(letra){
         case 'a':
             cout << "Voce digitou uma vogal.";
             break;
-       case 'b':
-            cout << "Voce digitou uma consoante";
+       case 'e':
+            cout << "Voce digitou uma vogal";
             break;
-        case 'c': 
-            cout << "Voce digitou uma consoante";
+        case 'i': 
+            cout << "Voce digitou uma vogal";
             break;
-        case 'd':
-            cout << "Voce digitou uma consoante";
+        case 'o':
+            cout << "Voce digitou uma vogal";
             break;
-        case 'e':
-            cout <<"Voce digitou uma consoante";
+        case 'u':
+            cout <<"Voce digitou uma vogal";
             break;  
+        default:
+            cout << "Voce digitou uma consoante";
     }
 
     return 0;          
