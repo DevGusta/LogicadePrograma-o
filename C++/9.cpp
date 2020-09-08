@@ -21,6 +21,9 @@ int main(){
     do{
         cout << "Digite um numero maior que 1 e impar: ";
         cin >> numero;
+        if(numero <= 1 || numero % 2 == 0)
+            cout << "Numero invalido";
+        
     }while(numero <= 1 || numero % 2 == 0);
         
     while(contador <= numero){
